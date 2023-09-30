@@ -1,16 +1,10 @@
-# traux_tmdb
+# Traux_TMDB
+Desafio Técnico Flutter para a empresa Traux. O objetivo foi consumir algumas APIs disponibilizadas pelo website: https://www.themoviedb.org/, que procura trazer os últimos lançamentos de filmes com seus detalhes.
 
-A new Flutter project.
+#Descrição do Projeto
+ - Para a arquitetura, foi aplicado conceitos de Clean Arch e uma estrutura similar a arquitetura hexagonal.
+ - Foi escolhido o Riverpod para gerenciamento de estado.
+ - O UI é uma recriação fiel da UI proposta pelo desafio.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# API_KEY
+Dentro da pasta `lib/utils`, no arquivo `constants.dart`, troque o valor de apiKey pela sua chave de API adquirida no site https://www.themoviedb.org/.
