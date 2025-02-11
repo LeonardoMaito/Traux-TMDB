@@ -1,7 +1,7 @@
-# Traux_TMDB
+# Traux-TMDB
 Desafio Técnico Flutter para a empresa Traux. O objetivo foi consumir algumas APIs disponibilizadas pelo website: https://www.themoviedb.org/, que procura trazer os últimos lançamentos de filmes com seus detalhes.
 
-#Descrição do Projeto
+## Descrição do Projeto
  - Para a arquitetura, foi aplicado conceitos de Clean Arch e uma estrutura similar a arquitetura hexagonal.
  - Foi escolhido o Riverpod para gerenciamento de estado.
  - O UI é uma recriação fiel da UI proposta pelo desafio.
